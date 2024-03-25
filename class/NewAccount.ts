@@ -6,6 +6,6 @@ export class NewAccount extends DioAccount {
     }
 
     deposit = (value: number): void => {
-        this.amount += value =+ 10;
+        this.setAmount(value + 10)
     }
 }
